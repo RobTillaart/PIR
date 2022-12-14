@@ -28,8 +28,9 @@
 
 unittest_setup()
 {
-    fprintf(stderr, "PIR_LIB_VERSION: %s\n", (char *) PIR_LIB_VERSION);
+  fprintf(stderr, "PIR_LIB_VERSION: %s\n", (char *) PIR_LIB_VERSION);
 }
+
 
 unittest_teardown()
 {
@@ -66,11 +67,11 @@ unittest(test_count)
   for (int i = 0; i < 8; i++)
   {
     P.add(i+2);
-    assertEqual(i+1, P.count();
+    assertEqual(i+1, P.count());
   }
 
   P.add(10);
-  assertEqual(8, P.count();
+  assertEqual(8, P.count());
 }
 
 

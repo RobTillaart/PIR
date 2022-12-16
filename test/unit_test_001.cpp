@@ -99,11 +99,11 @@ unittest(test_single_read)
 
   //  no PIR added yet => error
   uint8_t x = P.read(0);
-  assertEqual(PIR_ERR_INDEX, x);
+  assertEqual((int)PIR_ERR_INDEX, x);
 
   P.add(3);
   x = P.read(0);
-  assertNotEqual(PIR_ERR_INDEX, x);
+  assertNotEqual((int)PIR_ERR_INDEX, x);
 }
 
 

@@ -103,7 +103,7 @@ unittest(test_single_read)
 
   P.add(3);
   x = P.read(0);
-  assertNotEqual(PIR_ERR_INDEX, p);
+  assertNotEqual(PIR_ERR_INDEX, x);
 }
 
 

@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - add **free()** to return available slots
 - add **add(array, length)** for easier configuration.
 - add **PIR_MAX_COUNT** to be compile time configurable
+- update unit tests
+- add examples PIR_demo_add_array.ino 
 - update keywords.txt
 - update readme.md
 

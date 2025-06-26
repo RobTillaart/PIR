@@ -13,11 +13,13 @@ PIR  P;
 
 void setup()
 {
-  Serial.begin(115200);
   while (!Serial);
+  Serial.begin(115200);
+  Serial.println();
   Serial.println(__FILE__);
   Serial.print("PIR_LIB_VERSION: ");
   Serial.println(PIR_LIB_VERSION);
+  Serial.println();
 
   P.add(3);
   P.add(4);
